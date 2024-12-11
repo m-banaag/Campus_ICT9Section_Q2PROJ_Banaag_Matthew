@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Recent - Template
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lemon-milk" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/edo" rel="stylesheet">
+
+    <style>
+        table, tr, td{
+            border: 2px solid black;
+            padding: 35px;
+        }
+        .container {
+            background-color: #171720;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-family: 'Edo', sans-serif;
+            font-size: 60px;
+        }
+        h2 {
+            font-family: 'Edo', sans-serif;
+            font-size: 40px;
+        }
+        h1, h2, h4, p{
+            text-align: center;
+        }
+        body {
+            font-family: 'LEMON MILK', sans-serif;
+            margin: 30px;
+        }
+        ul {
+        list-style-position: inside; /* Ensures the bullets are inside the list */
+        padding-left: 0; /* Removes the default left padding */
+            text-align: center; /* Centers the list items */
+        }
+        .card{
+            padding: 10px;
+        }
+        .navbar-nav, .title{
+            font-family: 'Edo', sans-serif;
+            font-size: 20px;
+        }
+        li {
+            display: inline-block; /* Makes each list item inline, so they are horizontally aligned */
+            margin: 0 15px; /* Adds space between list items */
+        }
+        .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom and shadow */
+    }
+    .card:hover {
+        transform: scale(1.025); /* Zoom in */
+        box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1); /* Add shadow */
+    }
+        @import url('https://fonts.cdnfonts.com/css/lemon-milk');
+        @import url('https://fonts.cdnfonts.com/css/edo');
+    </style>
+</head>
+
+<body style="background-color: #111111; color: white;">
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+<div class="container-fluid">
+    <div class="title">
+    <a class="navbar-brand" href="index.html">Logo</a>
+</div>
+
+<ul class="navbar-nav me-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes
+        </a>
+        <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="popular.html">Popular</a>
+          <a class="dropdown-item" href="prevfeat.html">Previously Featured</a>
+          <a class="dropdown-item" href="recent.html">Recent</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="create.html">Create your own!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myrecipes.html">My Recipes</a>
+      </li>
+</ul>
+</div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+
+<h1>Recent</h1>
+
+<br>
+
+<p>These recipes are the most recently posted ones in [NAME]. You can't click on the recipes here.</p>
+
+<hr style="border: 1px solid white; width: 80%; margin: 20px auto;">
+
+
+<br>
+
+<div class="row d-flex justify-content-center gap-5">
+<div class="card bg-dark text-white" style="width: 18rem;">
+  <img class="card-img-top" src="https://casuallypeckish.com/wp-content/uploads/2021/11/Beef-noodle-stir-fry-1.jpg" alt="Card image cap" height="200px">
+  <div class="card-body">
+    <a href="#">
+    <h5 class="card-title" align="center">Beef Stir Fry Noodles</h5>
+    </a>
+    <p class="card-text">Tender strips of beef tossed with savory vegetables and noodles in a flavorful sauce.</p>
+    <p class="card-text"><small class="text-secondary">9 Views, 2 Likes</small></p>
+  </div>
+</div>
+
+<div class="card bg-dark text-white" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.elmundoeats.com/wp-content/uploads/2024/06/FP-Authentic-pad-Thai-in-a-plate-500x375.jpg" alt="Card image cap" height="200px">
+  <div class="card-body">
+    <a href="#">
+    <h5 class="card-title" align="center">Pad Thai</h5>
+    </a>
+    <p class="card-text">A Thai classic of stir-fried rice noodles with tangy tamarind, crunchy peanuts, and a hint of lime.</p>
+    <p class="card-text"><small class="text-secondary">13 Views, 13 Likes</small></p>
+  </div>
+</div>
+
+<div class="card bg-dark text-white" style="width: 18rem;">
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJAC3FvaffSVC-w61VxDvJlEZq6WSK2PZZw&s" alt="Card image cap" height="200px">
+  <div class="card-body">
+    <a href="#">
+    <h5 class="card-title" align="center">Mango Sticky Rice</h5>
+    </a>
+    <p class="card-text">A luscious dessert pairing sweet mango slices with creamy coconut-infused sticky rice.</p>
+    <p class="card-text"><small class="text-secondary">5 Views, 0 Likes</small></p>
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<br>
+
+
+<!-- Required JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
